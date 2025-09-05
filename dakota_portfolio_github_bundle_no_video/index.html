@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dakota Thibodeau — Engineering Portfolio</title>
+<style>
+*{box-sizing:border-box}body{font-family:Inter,Arial,sans-serif;margin:0;color:#e5e7eb;background:#0b1220}
+header{padding:46px 20px;text-align:center;background:linear-gradient(140deg,#0b1220,#111827)}
+h1{margin:0;font-size:36px} p.subtitle{margin:6px 0 0;color:#a3b2c7}
+main{max-width:1200px;margin:0 auto;padding:20px}
+section{margin:28px 0}
+h2{font-size:20px;border-bottom:1px solid #243041;padding-bottom:6px;color:#d8e2f0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:14px}
+.card{border:1px solid #243041;border-radius:12px;overflow:hidden;background:#0f172a;cursor:pointer}
+.card img,.card video{width:100%;height:180px;object-fit:cover;display:block}
+.caption{padding:8px 10px;color:#9fb1c7;font-size:12px;border-top:1px solid #243041}
+.controls{margin-top:10px}
+.controls a{display:inline-block;margin:6px 6px 0;padding:10px 14px;border:1px solid #334155;border-radius:8px;color:#e2e8f0;text-decoration:none}
+#lightbox{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.92);z-index:9999}
+#lightbox img,#lightbox video{max-width:92vw;max-height:90vh;border-radius:10px}
+#lightbox .close{position:absolute;top:18px;right:26px;font-size:28px;color:#e5e7eb;cursor:pointer}
+#lightbox .cap{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);color:#c8d2e1;background:rgba(15,23,42,.75);padding:8px 12px;border-radius:8px;max-width:85vw}
+footer{color:#8396ad;text-align:center;padding:18px;border-top:1px solid #243041}
+</style>
+</head><body>
+<header>
+  <h1>Dakota Thibodeau</h1>
+  <p class="subtitle">Mechanical & Biomedical Engineering — Projects, Prototypes, CAD & Simulation</p>
+  <div class="controls">
+    
+  </div>
+</header>
+<main>
+  <section><h2>Competitions</h2><div class='grid'><div class="card" onclick="openLB('images/SailBoat_Competition_Winner_Cad_Model.png','SailBoat Competition Winner Cad Model.png',false)">
+  <img src="images/SailBoat_Competition_Winner_Cad_Model.png" alt="SailBoat Competition Winner Cad Model.png"><div class="caption">SailBoat Competition Winner Cad Model.png</div>
+</div><div class="card" onclick="openLB('images/SailBoat_Competition_Winner_overall.jpg','SailBoat Competition Winner overall.jpg',false)">
+  <img src="images/SailBoat_Competition_Winner_overall.jpg" alt="SailBoat Competition Winner overall.jpg"><div class="caption">SailBoat Competition Winner overall.jpg</div>
+</div><div class="card" onclick="openLB('images/SailBoat_Competition_Winner_overall2.jpg','SailBoat Competition Winner overall2.jpg',false)">
+  <img src="images/SailBoat_Competition_Winner_overall2.jpg" alt="SailBoat Competition Winner overall2.jpg"><div class="caption">SailBoat Competition Winner overall2.jpg</div>
+</div><div class="card" onclick="openLB('images/Top_Design_Competition_winner_cad.png','Top Design Competition winner cad.png',false)">
+  <img src="images/Top_Design_Competition_winner_cad.png" alt="Top Design Competition winner cad.png"><div class="caption">Top Design Competition winner cad.png</div>
+</div><div class="card" onclick="openLB('images/Top_Design_Competition_winner_spinning.jpg','Top Design Competition winner spinning.jpg',false)">
+  <img src="images/Top_Design_Competition_winner_spinning.jpg" alt="Top Design Competition winner spinning.jpg"><div class="caption">Top Design Competition winner spinning.jpg</div>
+</div><div class="card" onclick="openLB('images/Top_Design_Competition_winner_stationary.jpg','Top Design Competition winner stationary.jpg',false)">
+  <img src="images/Top_Design_Competition_winner_stationary.jpg" alt="Top Design Competition winner stationary.jpg"><div class="caption">Top Design Competition winner stationary.jpg</div>
+</div></div></section>
+  <section><h2>Biomedical Engineering</h2><div class='grid'><div class="card" onclick="openLB('images/TPMCS_Circuit_Diagram.png','TPMCS Circuit Diagram.png',false)">
+  <img src="images/TPMCS_Circuit_Diagram.png" alt="TPMCS Circuit Diagram.png"><div class="caption">TPMCS Circuit Diagram.png</div>
+</div><div class="card" onclick="openLB('images/TPMCS_overview.png','TPMCS overview.png',false)">
+  <img src="images/TPMCS_overview.png" alt="TPMCS overview.png"><div class="caption">TPMCS overview.png</div>
+</div><div class="card" onclick="openLB('images/Rehab_Treadmil_Ball_Bearing.png','Rehab Treadmil Ball Bearing.png',false)">
+  <img src="images/Rehab_Treadmil_Ball_Bearing.png" alt="Rehab Treadmil Ball Bearing.png"><div class="caption">Rehab Treadmil Ball Bearing.png</div>
+</div><div class="card" onclick="openLB('images/Rehab_Treadmil_Beltpath.png','Rehab Treadmil Beltpath.png',false)">
+  <img src="images/Rehab_Treadmil_Beltpath.png" alt="Rehab Treadmil Beltpath.png"><div class="caption">Rehab Treadmil Beltpath.png</div>
+</div><div class="card" onclick="openLB('images/Rehab_Treadmil_Exploded.png','Rehab Treadmil Exploded.png',false)">
+  <img src="images/Rehab_Treadmil_Exploded.png" alt="Rehab Treadmil Exploded.png"><div class="caption">Rehab Treadmil Exploded.png</div>
+</div><div class="card" onclick="openLB('images/Rehab_Treadmil_Hook.png','Rehab Treadmil Hook.png',false)">
+  <img src="images/Rehab_Treadmil_Hook.png" alt="Rehab Treadmil Hook.png"><div class="caption">Rehab Treadmil Hook.png</div>
+</div><div class="card" onclick="openLB('images/Rehab_Treadmil_Overall.png','Rehab Treadmil Overall.png',false)">
+  <img src="images/Rehab_Treadmil_Overall.png" alt="Rehab Treadmil Overall.png"><div class="caption">Rehab Treadmil Overall.png</div>
+</div><div class="card" onclick="openLB('images/Rehab_Treadmil_Winch.png','Rehab Treadmil Winch.png',false)">
+  <img src="images/Rehab_Treadmil_Winch.png" alt="Rehab Treadmil Winch.png"><div class="caption">Rehab Treadmil Winch.png</div>
+</div><div class="card" onclick="openLB('images/Rehab_Treadmil_overall_2.png','Rehab Treadmil overall 2.png',false)">
+  <img src="images/Rehab_Treadmil_overall_2.png" alt="Rehab Treadmil overall 2.png"><div class="caption">Rehab Treadmil overall 2.png</div>
+</div><div class="card" onclick="openLB('images/Prosthetic_boot.png','Prosthetic boot.png',false)">
+  <img src="images/Prosthetic_boot.png" alt="Prosthetic boot.png"><div class="caption">Prosthetic boot.png</div>
+</div><div class="card" onclick="openLB('images/Prosthetic_boot2.png','Prosthetic boot2.png',false)">
+  <img src="images/Prosthetic_boot2.png" alt="Prosthetic boot2.png"><div class="caption">Prosthetic boot2.png</div>
+</div><div class="card" onclick="openLB('images/Prosthetic_insert.png','Prosthetic insert.png',false)">
+  <img src="images/Prosthetic_insert.png" alt="Prosthetic insert.png"><div class="caption">Prosthetic insert.png</div>
+</div><div class="card" onclick="openLB('images/Prosthetic_insert2.png','Prosthetic insert2.png',false)">
+  <img src="images/Prosthetic_insert2.png" alt="Prosthetic insert2.png"><div class="caption">Prosthetic insert2.png</div>
+</div></div></section>
+  <section><h2>Prototypes & Builds</h2><div class='grid'><div class="card" onclick="openLB('images/Motion_activated_Nigth_Light_Circuit_Board.jpg','Motion activated Nigth Light Circuit Board.jpg',false)">
+  <img src="images/Motion_activated_Nigth_Light_Circuit_Board.jpg" alt="Motion activated Nigth Light Circuit Board.jpg"><div class="caption">Motion activated Nigth Light Circuit Board.jpg</div>
+</div><div class="card" onclick="openLB('images/Motion_activated_Nigth_Light_Circuit_Board2.jpg','Motion activated Nigth Light Circuit Board2.jpg',false)">
+  <img src="images/Motion_activated_Nigth_Light_Circuit_Board2.jpg" alt="Motion activated Nigth Light Circuit Board2.jpg"><div class="caption">Motion activated Nigth Light Circuit Board2.jpg</div>
+</div><div class="card" onclick="openLB('images/Motion_activated_Nigth_Light_final_product.jpg','Motion activated Nigth Light final product.jpg',false)">
+  <img src="images/Motion_activated_Nigth_Light_final_product.jpg" alt="Motion activated Nigth Light final product.jpg"><div class="caption">Motion activated Nigth Light final product.jpg</div>
+</div><div class="card" onclick="openLB('images/Garage_Door_Breadboard.jpg','Garage Door Breadboard.jpg',false)">
+  <img src="images/Garage_Door_Breadboard.jpg" alt="Garage Door Breadboard.jpg"><div class="caption">Garage Door Breadboard.jpg</div>
+</div><div class="card" onclick="openLB('images/Garage_Door_tinkercad.png','Garage Door tinkercad.png',false)">
+  <img src="images/Garage_Door_tinkercad.png" alt="Garage Door tinkercad.png"><div class="caption">Garage Door tinkercad.png</div>
+</div><div class="card" onclick="openLB('images/Desk_organizer_with_apple_watch_charger.png','Desk organizer with apple watch charger.png',false)">
+  <img src="images/Desk_organizer_with_apple_watch_charger.png" alt="Desk organizer with apple watch charger.png"><div class="caption">Desk organizer with apple watch charger.png</div>
+</div><div class="card" onclick="openLB('images/wallet_Multitool_2d.png','wallet Multitool 2d.png',false)">
+  <img src="images/wallet_Multitool_2d.png" alt="wallet Multitool 2d.png"><div class="caption">wallet Multitool 2d.png</div>
+</div><div class="card" onclick="openLB('images/wallet_Multitool_final_Product.jpg','wallet Multitool final Product.jpg',false)">
+  <img src="images/wallet_Multitool_final_Product.jpg" alt="wallet Multitool final Product.jpg"><div class="caption">wallet Multitool final Product.jpg</div>
+</div><div class="card" onclick="openLB('images/Birdhouse_2d.png','Birdhouse 2d.png',false)">
+  <img src="images/Birdhouse_2d.png" alt="Birdhouse 2d.png"><div class="caption">Birdhouse 2d.png</div>
+</div><div class="card" onclick="openLB('images/Birdhouse_Final_Product_front.jpg','Birdhouse Final Product front.jpg',false)">
+  <img src="images/Birdhouse_Final_Product_front.jpg" alt="Birdhouse Final Product front.jpg"><div class="caption">Birdhouse Final Product front.jpg</div>
+</div><div class="card" onclick="openLB('images/Birdhouse_Final_Product_side.jpg','Birdhouse Final Product side.jpg',false)">
+  <img src="images/Birdhouse_Final_Product_side.jpg" alt="Birdhouse Final Product side.jpg"><div class="caption">Birdhouse Final Product side.jpg</div>
+</div><div class="card" onclick="openLB('images/Gallileos_escapement.jpg','Gallileos escapement.jpg',false)">
+  <img src="images/Gallileos_escapement.jpg" alt="Gallileos escapement.jpg"><div class="caption">Gallileos escapement.jpg</div>
+</div><div class="card" onclick="openLB('images/Thibodeau_gizmo_assembled_1.jpg','Thibodeau gizmo assembled 1.jpg',false)">
+  <img src="images/Thibodeau_gizmo_assembled_1.jpg" alt="Thibodeau gizmo assembled 1.jpg"><div class="caption">Thibodeau gizmo assembled 1.jpg</div>
+</div><div class="card" onclick="openLB('images/Thibodeau_gizmo_unassembled.jpg','Thibodeau gizmo unassembled.jpg',false)">
+  <img src="images/Thibodeau_gizmo_unassembled.jpg" alt="Thibodeau gizmo unassembled.jpg"><div class="caption">Thibodeau gizmo unassembled.jpg</div>
+</div></div></section>
+  <section><h2>Analysis & Simulation</h2><div class='grid'><div class="card" onclick="openLB('images/Cooling_Coil_thermodynamic_FEA.png','Thermodynamics Cooling Coil — FEA',false)">
+  <img src="images/Cooling_Coil_thermodynamic_FEA.png" alt="Thermodynamics Cooling Coil — FEA"><div class="caption">Thermodynamics Cooling Coil — FEA</div>
+</div><div class="card" onclick="openLB('images/Cooling_Coil_thermodynamic_FEA2.png','Thermodynamics Cooling Coil — FEA',false)">
+  <img src="images/Cooling_Coil_thermodynamic_FEA2.png" alt="Thermodynamics Cooling Coil — FEA"><div class="caption">Thermodynamics Cooling Coil — FEA</div>
+</div><div class="card" onclick="openLB('videos/orifice_streamline.mp4','Fluid Mechanics — Orifice Streamline (video)',true)">
+  <video src="videos/orifice_streamline.mp4"></video><div class="caption">Fluid Mechanics — Orifice Streamline (video)</div>
+</div></div></section>
+  <section><h2>Mechanical CAD Gallery</h2><div class='grid'><div class="card" onclick="openLB('images/Screenshot_2024-02-09_113715.png','Screenshot 2024-02-09 113715.png',false)">
+  <img src="images/Screenshot_2024-02-09_113715.png" alt="Screenshot 2024-02-09 113715.png"><div class="caption">Screenshot 2024-02-09 113715.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-02-09_123957.png','Screenshot 2024-02-09 123957.png',false)">
+  <img src="images/Screenshot_2024-02-09_123957.png" alt="Screenshot 2024-02-09 123957.png"><div class="caption">Screenshot 2024-02-09 123957.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-02-09_190034.png','Screenshot 2024-02-09 190034.png',false)">
+  <img src="images/Screenshot_2024-02-09_190034.png" alt="Screenshot 2024-02-09 190034.png"><div class="caption">Screenshot 2024-02-09 190034.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-02-19_212153.png','Screenshot 2024-02-19 212153.png',false)">
+  <img src="images/Screenshot_2024-02-19_212153.png" alt="Screenshot 2024-02-19 212153.png"><div class="caption">Screenshot 2024-02-19 212153.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-02-20_004930.png','Screenshot 2024-02-20 004930.png',false)">
+  <img src="images/Screenshot_2024-02-20_004930.png" alt="Screenshot 2024-02-20 004930.png"><div class="caption">Screenshot 2024-02-20 004930.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-03-05_161900.png','Screenshot 2024-03-05 161900.png',false)">
+  <img src="images/Screenshot_2024-03-05_161900.png" alt="Screenshot 2024-03-05 161900.png"><div class="caption">Screenshot 2024-03-05 161900.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-03-26_171519.png','Screenshot 2024-03-26 171519.png',false)">
+  <img src="images/Screenshot_2024-03-26_171519.png" alt="Screenshot 2024-03-26 171519.png"><div class="caption">Screenshot 2024-03-26 171519.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-03-26_181136.png','Screenshot 2024-03-26 181136.png',false)">
+  <img src="images/Screenshot_2024-03-26_181136.png" alt="Screenshot 2024-03-26 181136.png"><div class="caption">Screenshot 2024-03-26 181136.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-03-26_191457.png','Screenshot 2024-03-26 191457.png',false)">
+  <img src="images/Screenshot_2024-03-26_191457.png" alt="Screenshot 2024-03-26 191457.png"><div class="caption">Screenshot 2024-03-26 191457.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-03-26_200432.png','Screenshot 2024-03-26 200432.png',false)">
+  <img src="images/Screenshot_2024-03-26_200432.png" alt="Screenshot 2024-03-26 200432.png"><div class="caption">Screenshot 2024-03-26 200432.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-04-02_001944.png','Screenshot 2024-04-02 001944.png',false)">
+  <img src="images/Screenshot_2024-04-02_001944.png" alt="Screenshot 2024-04-02 001944.png"><div class="caption">Screenshot 2024-04-02 001944.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-04-02_165250.png','Screenshot 2024-04-02 165250.png',false)">
+  <img src="images/Screenshot_2024-04-02_165250.png" alt="Screenshot 2024-04-02 165250.png"><div class="caption">Screenshot 2024-04-02 165250.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-04-12_115347.png','Screenshot 2024-04-12 115347.png',false)">
+  <img src="images/Screenshot_2024-04-12_115347.png" alt="Screenshot 2024-04-12 115347.png"><div class="caption">Screenshot 2024-04-12 115347.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-04-12_121310.png','Screenshot 2024-04-12 121310.png',false)">
+  <img src="images/Screenshot_2024-04-12_121310.png" alt="Screenshot 2024-04-12 121310.png"><div class="caption">Screenshot 2024-04-12 121310.png</div>
+</div><div class="card" onclick="openLB('images/Screenshot_2024-04-12_122706.png','Screenshot 2024-04-12 122706.png',false)">
+  <img src="images/Screenshot_2024-04-12_122706.png" alt="Screenshot 2024-04-12 122706.png"><div class="caption">Screenshot 2024-04-12 122706.png</div>
+</div><div class="card" onclick="openLB('images/Graston_Instrument_Multitool.png','Graston Instrument Multitool.png',false)">
+  <img src="images/Graston_Instrument_Multitool.png" alt="Graston Instrument Multitool.png"><div class="caption">Graston Instrument Multitool.png</div>
+</div></div></section>
+</main>
+<div id="lightbox"><span class="close">✕</span><img src="" alt=""><video src="" style="display:none"></video><div class="cap"></div></div>
+<footer>© 2025 Dakota Thibodeau — Static site.</footer>
+<script>
+const lb=document.getElementById('lightbox');
+const lbImg=lb.querySelector('img'); const lbVid=lb.querySelector('video'); const lbCap=lb.querySelector('.cap');
+function openLB(src, cap, isVideo){
+  lb.style.display='flex'; lbCap.textContent=cap||'';
+  if(isVideo){ lbImg.style.display='none'; lbVid.style.display='block'; lbVid.src=src; lbVid.controls=true; lbVid.play(); }
+  else { lbVid.pause(); lbVid.style.display='none'; lbImg.style.display='block'; lbImg.src=src; }
+}
+function closeLB(){ lb.style.display='none'; lbVid.pause(); }
+lb.addEventListener('click', (e)=>{ if(e.target.id==='lightbox' || e.target.className==='close'){ closeLB(); } });
+</script>
+</body></html>
