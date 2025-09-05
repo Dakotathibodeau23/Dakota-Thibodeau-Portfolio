@@ -43,9 +43,6 @@ Images of each project are included in the `/images` folder.
 
 ## 📫 Contact  
 - **Email:** dakotathibodeau@gmail.com  
-- **LinkedIn:** [linkedin.com/in/dakotathibodeau](https://linkedin.com/in/dakotathibodeau)  
-
----
-
+- **LinkedIn:** https://www.linkedin.com/in/dakota-thibodeau-6aa8a1349/
 ✨ Thank you for visiting my portfolio!  
 
